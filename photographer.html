@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Fisheye - photographe</title>
+  </head>
+  <body>
+    <header>
+      <img src="assets/images/logo.png" class="logo" />
+    </header>
+    <main id="main">
+      <div class="photograph-header">
+        <button class="contact_button" onclick="displayModal()">
+          Contactez-moi
+        </button>
+      </div>
+      <section class="media-section" id="media-section"></section>
+    </main>
+    <div id="contact_modal" role="dialog" >
+      <div class="modal">
+        <header>
+          <h2>Contactez-moi</h2>
+          <img src="assets/icons/close.svg" onclick="closeModal()" />
+        </header>
+     
+          <form class="modal-form" id="modalForm">
+            <label class="modal-label" for="prenom">Prénom</label><br />
+            <input
+              type="text"
+              id="prenom"
+              name="prenom"
+              minlength="2"
+              pattern="(?!^ +$)^.+$"
+              required
+            /><br />
+
+            <label class="modal-label" for="nom">Nom</label><br />
+            <input
+              type="text"
+              id="nom"
+              name="nom"
+              minlength="2"
+              pattern="(?!^ +$)^.+$"
+              required
+            /><br />
+
+            <label class="modal-label" for="email">E-mail</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+            /><br />
+
+            <label class="modal-label" for="message">Votre message</label><br />
+            <input
+              type="text"
+              id="message"
+              name="message"
+              minlength="10"
+              maxlength="150"
+              pattern="(?!^ +$)^.+$"
+              required
+            /><br />
+         
+          <button class="contact_button" type = "submit" id="submit">Envoyer</button>
+        </form>
+      </div>
+    </div>
+    <script src="/scripts/pages/photographer.js"></script>
+    <script src="scripts/templates/photographer.js"></script>
+    <script src="/scripts/pages/contact.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  </body>
+</html>

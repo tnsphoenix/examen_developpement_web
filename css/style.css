@@ -1,0 +1,233 @@
+/* @import url("photographer.css"); */
+
+#contact_modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  /* height: 100%; */
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: translate(-50%, -50%);
+  /* justify-content: center;
+    align-items: center; */
+  z-index: 1000;
+}
+
+.photograph-header {
+  background-color: #fafafa;
+  height: 70px;
+  margin: 0 100px;
+}
+
+.photograph-header button {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.modal {
+  border-radius: 5px;
+  background-color: rgba(241, 234, 234, 0.581);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 35px;
+  width: 100%;
+  margin: auto;
+  /* box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); Ajoute une ombre légère */
+}
+
+.modal button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  margin-top: 20px;
+  margin-left: 40%;
+}
+
+.modal header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.modal header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  margin-left: 30%;
+}
+
+.modal-form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Styles pour les labels dans le formulaire */
+.modal-label {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.modal header img {
+  cursor: pointer;
+  background-color: red;
+  height: 20px;
+}
+
+.modal header h2 {
+  font-size: 50px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.contact_button {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 11px;
+  width: 160px;
+  height: 50px;
+  border: none;
+  background-color: #007bff;
+  /* background-color: blue; */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 0 20px; /* Ajout d'une marge intérieure pour éviter le débordement */
+}
+
+h1 {
+  color: #901c1c;
+  margin-right: 100px;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 100px;
+}
+
+.photographer_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 70px;
+  margin-top: 100px;
+}
+
+.photographer_section article {
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.photographer_section article h2 {
+  color: #d3573c;
+  font-size: 36px;
+}
+
+.photographer_section article img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.media-section {
+  display: flex;
+  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+/* .media-section {
+    display: flex;
+    
+
+} */
+/* .media-section {
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fafafa; 
+  padding: 20px; 
+  border-radius: 10px; 
+} */
+
+/* .media-section {
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
+
+.media-section h2 {
+  color: #d3573c;
+  font-size: 18px; /* Ajustement de la taille de la police */
+  margin-top: 10px; /* Ajout d'une marge supérieure */
+}
+
+/* .media-section img {
+  height: 500px;
+  width: 500px;
+  border-radius: 5px; 
+  object-fit: cover;
+} */
+
+#main img {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  /* border-radius: 50%; */
+}
+
+.media-section video {
+  /* display: flex; */
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  /* border-radius: 50%; */
+}

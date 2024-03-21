@@ -1,0 +1,152 @@
+{
+	"photographers": [
+		{
+			"name": "Mimi Keel",
+			"id": 243,
+			"city": "London",
+			"country": "UK",
+			"tagline": "Voir le beau dans le quotidien",
+			"price": 400,
+			"portrait": "chat.jpg"
+		},
+		{
+			"name": "Ellie-Rose Wilkens",
+			"id": 930,
+			"city": "Paris",
+			"country": "France",
+			"tagline": "Capturer des compositions complexes",
+			"price": 250,
+			"portrait": "chats.jpg"
+		},
+		{
+			"name": "Tracy Galindo",
+			"id": 82,
+			"city": "Montreal",
+			"country": "Canada",
+			"tagline": "Photographe freelance",
+			"price": 500,
+			"portrait": "chien.jpg"
+		},
+		{
+			"name": "Nabeel Bradford",
+			"id": 527,
+			"city": "Mexico City",
+			"country": "Mexico",
+			"tagline": "Toujours aller de l'avant",
+			"price": 350,
+			"portrait": "lapin.jpg"
+		},
+		{
+			"name": "Rhode Dubois",
+			"id": 925,
+			"city": "Barcelona",
+			"country": "Spain",
+			"tagline": "Je crée des souvenirs",
+			"price": 275,
+			"portrait": "sand.jpg"
+		},
+		{
+			"name": "Marcel Nikolic",
+			"id": 195,
+			"city": "Berlin",
+			"country": "Germany",
+			"tagline": "Toujours à la recherche de LA photo",
+			"price": 300,
+			"portrait": "chat blanc.jpg"
+		},
+		{
+			"name": "phoenix",
+			"id": 196,
+			"city": "Berlin",
+			"country": "Germany",
+			"tagline": "Toujours à la recherche de LA photo",
+			"price": 300,
+			"portrait": "fleur.jpg"
+		}
+	],
+	"media": [
+		{
+			"id": 342550,
+			"photographerId": 82,
+			"title": "Fashion Yellow Beach",
+			"image": "Auberge_Can.jpg",
+			"likes": 62,
+			"date": "2011-12-08",
+			"price": 55
+		},
+		{
+			"id": 8328953,
+			"photographerId": 82,
+			"title": "Wooden sculpture of a horse",
+			"video": "post_instagram.mp4",
+			"likes": 24,
+			"date": "2011-12-08",
+			"price": 100
+		  },
+		  
+		{
+			"id": 7502053,
+			"photographerId": 82,
+			"title": "Triangle Man",
+			"image": "Coeur_Eau.jpg",
+			"likes": 88,
+			"date": "2007-05-07",
+			"price": 55
+		},
+		{
+			"id": 8523492,
+			"photographerId": 82,
+			"title": "Purple Tunnel",
+			"image": "Hotel_Mer.jpg",
+			"likes": 24,
+			"date": "2018-05-05",
+			"price": 55
+		},
+
+		{
+			"id": 52343416,
+			"photographerId": 195,
+			"title": "Japanese Tower, Kyoto",
+			"image": "Hotel_Port.jpg",
+			"likes": 25,
+			"date": "2019-04-03",
+			"price": 60
+		},
+		{
+			"id": 356234343,
+			"photographerId": 195,
+			"title": "City Bike and Stair, Paris",
+			"image": "Hotel_Eau.jpg",
+			"likes": 53,
+			"date": "2019-06-20",
+			"price": 60
+		},
+		{
+			"id": 235234343,
+			"photographerId": 195,
+			"title": "Adventure Door, India",
+			"image": "Hotel_Amina.jpg",
+			"likes": 63,
+			"date": "2019-06-26",
+			"price": 60
+		},
+		{
+			"id": 6234234343,
+			"photographerId": 195,
+			"title": "Contrast, St Petersburg",
+			"image": "Hotel_s_Matin.jpg",
+			"likes": 52,
+			"date": "2019-06-30",
+			"price": 60
+		},
+		{
+			"id": 777723343,
+			"photographerId": 930,
+			"title": "Connected Curves",
+			"image": "Hotel_Mouette.jpg",
+			"likes": 79,
+			"date": "2018-05-21",
+			"price": 80
+		}
+	]
+}
